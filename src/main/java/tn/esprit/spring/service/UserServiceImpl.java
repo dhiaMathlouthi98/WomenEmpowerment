@@ -107,8 +107,10 @@ public class UserServiceImpl implements IUserService {
 			c.setExpertadress(null);
 			c.setExpertnumber(null);
 			c.setExpertspeciality(null);
+
 			c.setSexe(Sexe.Women);
-			c.setIsEnabled(true);
+			c.setIsEnabled(false);
+
 
 		}
 		
